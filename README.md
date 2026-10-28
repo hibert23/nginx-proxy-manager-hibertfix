@@ -19,15 +19,17 @@ The NPM interface displays **v2.16.0 hibertfix**. Its backend reports version 2.
 
 ## Container image
 
-Planned GHCR package:
+GHCR package (uploaded):
 
 ```text
 ghcr.io/hibert23/nginx-proxy-manager-hibertfix:2.16.0-hibertfix
 ```
 
-**Publishing status:** Repository created; the GHCR image must still be uploaded from the build host and made public. Do not use the pull command until the package is published.
+**Registry status:** The image has been uploaded to GHCR. Package visibility (public/private) still needs to be checked; anonymous pulls work only when the package is public.
 
-Once public, pull it with:
+Published manifest digest: `sha256:7b617c7ac8fbc492f3f1a1c7872b5df689ccf79b85bac5eaed2f2aa6a405eea4`.
+
+Once the package is public, pull it with:
 
 ```bash
 docker pull ghcr.io/hibert23/nginx-proxy-manager-hibertfix:2.16.0-hibertfix
